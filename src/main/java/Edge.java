@@ -12,6 +12,7 @@ public class Edge<T> {
     public Edge(Vertex<T> source, Vertex<T> destination, double weight) {
         this( source, destination);
         this.weight = weight;
+
     }
 
     public Vertex<T> getSource() {
